@@ -64,15 +64,18 @@ body {
     margin: 20px auto;
     padding: 10px 0;
     text-align: center;
-    border-bottom: 3px solid skyblue;
+    border-bottom: none !important; /* X- REMOVE: Purani skyblue/white border line khatam */
+    background: transparent !important; /* Background transparent ho jaye ga */
 }
 
+/* Footer navbar container ko bhi update karein */
 .footer-navbar {
     width: 100%;
-    border-top: 2px solid #87CEEB;
+    border-top: none !important; /* X- REMOVE: Bottom navbar ki line bhi khatam */
     margin-top: 40px;
     padding: 10px 0;
     text-align: center;
+    background: transparent !important;
 }
 
 /* ========================================================
